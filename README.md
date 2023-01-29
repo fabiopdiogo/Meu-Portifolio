@@ -3,7 +3,7 @@
 ![Print da pagina](./public/Screenshot_portifolio.png)
 
 
-Link para aceso na web (deploy):todo-typescript-gamma.vercel.app
+Link para aceso na web (deploy): https://meu-repositorio-chi-gilt.vercel.app/
 
 # Como surgiu a ideia do projeto?
 
