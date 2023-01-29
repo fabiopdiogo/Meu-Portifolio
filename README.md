@@ -16,6 +16,7 @@ Este portifólio tambem me ajudou a desnvolver meu primeiro menu mobile e fazer 
 A responsividade desse projeto foi muito legal de fazer porque tive a ideia de faze-lá adicionando uma seção do código por vez, que serviu para eu descobrir as partes no projeto que estavam quebrando a responsividade e ajusta-la de acordo com cada seção.
 
 
+
 ### 01. Rodando o Projeto
 Primeiramente va ao terminal do projeto e execute o comando "npm i" para instalar todas as dependencias de uma vez.
 Para rodar o projeto, utilize o comando "npm start" no terminal.
