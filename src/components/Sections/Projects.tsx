@@ -55,7 +55,7 @@ function Skills ({id}: Props){
   return( 
       <a id={id}>
         <DivMain>
-          <H1> Meu Portifólio </H1>
+          <H1> Principais Projetos </H1>
           <p>Esses aqui são alguns dos principais projetos que eu realizei ate aqui durante essa minha jornada de estudo.</p>
           <CardsFit>
             <Fit1>
