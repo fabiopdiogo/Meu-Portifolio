@@ -20,14 +20,21 @@ const DivMain = styled.main`
 `
 
 const CardsFit = styled.div`
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
   gap: 15px;
   margin-top: 40px;
+  height: fit-content;
+
+  @media(max-width:1100px){
+    display: flex;
+    flex-direction: column;
+  }
 `
-const Fit1 = styled.div`
+
+const Fit = styled.div`
   display: flex;
   gap: 5px;  
   width: 100%;  
@@ -58,16 +65,18 @@ function Skills ({id}: Props){
           <H1> Principais Projetos </H1>
           <p>Esses aqui são alguns dos principais projetos que eu realizei ate aqui durante essa minha jornada de estudo.</p>
           <CardsFit>
-            <Fit1>
+            
               <Cards src="social_dev.png" name="Social Dev" href="https://social-dev-woad.vercel.app/login"/>
               <Cards src="form-cartao.png" name="Form Cartão" href="https://form-cartao3.vercel.app/"/>
               <Cards src="todo_list.png" name="TODO-LIST React" href="https://to-do-list-vert-two.vercel.app/"/>
-            </Fit1>
-            <Fit2>
+
+
               <Cards src="react_ts_todo.png" name="TODO React+TS" href="https://todo-typescript-gamma.vercel.app/"/>
               <Cards src="tic_tac_toe.png" name="Jogo da Velha React" href="https://react-jogo-da-velha-theta.vercel.app/"/>
-              <Cards src="news_homepage.png" name="News Homepage" href="https://news-homepage-drab.vercel.app/"/>
-            </Fit2>
+              <Cards src="news_homepage.png" name="News Homepage" href="https://news-homepage-drab.vercel.app/"/>  
+              <Cards src="cinema_react.png" name="News Homepage" href="https://cinema-react-rosy.vercel.app/"/>
+      
+             
           </CardsFit>
         </DivMain> 
       </a>  
