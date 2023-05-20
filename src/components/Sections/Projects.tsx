@@ -74,7 +74,7 @@ function Skills ({id}: Props){
               <Cards src="react_ts_todo.png" name="TODO React+TS" href="https://todo-typescript-gamma.vercel.app/"/>
               <Cards src="tic_tac_toe.png" name="Jogo da Velha React" href="https://react-jogo-da-velha-theta.vercel.app/"/>
               <Cards src="news_homepage.png" name="News Homepage" href="https://news-homepage-drab.vercel.app/"/>  
-              <Cards src="cinema_react.png" name="News Homepage" href="https://cinema-react-rosy.vercel.app/"/>
+              <Cards src="cinema_react.png" name="Cinema React" href="https://cinema-react-rosy.vercel.app/"/>
       
              
           </CardsFit>
