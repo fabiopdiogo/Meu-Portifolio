@@ -10,7 +10,6 @@ const Div1 = styled.section`
     cursor: pointer;
     transition: all 0.3s ease-out;
   }
-
 `
 
 const Image = styled.img`  

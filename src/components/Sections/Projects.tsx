@@ -34,26 +34,6 @@ const CardsFit = styled.div`
   }
 `
 
-const Fit = styled.div`
-  display: flex;
-  gap: 5px;  
-  width: 100%;  
-  
-  @media(max-width:1100px){
-    flex-direction: column;
-  }
-`
-const Fit2 = styled.div`
-  display: flex;
-  flex-direction: row;
-  gap: 5px;  
-  width: 100%;  
-
-  @media(max-width:1100px){    
-    flex-direction: column; 
-  }
-`
-
 interface Props{
   id: string
 }
