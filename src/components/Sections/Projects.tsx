@@ -56,7 +56,8 @@ function Skills ({id}: Props){
               <Cards src="news_homepage.png" name="News Homepage" href="https://news-homepage-drab.vercel.app/"/>  
               <Cards src="cinema_react.png" name="Cinema React" href="https://cinema-react-rosy.vercel.app/"/>
               <Cards src="printdesafio.png" name="ToDo List FullStack" href="https://corelab-web-challenge-three.vercel.app/"/>
-             
+
+              <Cards src="mandalorian.png" name="Mandalorian Store" href="https://mandalorian-store-gamma.vercel.app/"/>
           </CardsFit>
         </DivMain> 
       </a>  
