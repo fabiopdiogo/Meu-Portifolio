@@ -14,10 +14,9 @@ const Div1 = styled.section`
 
 const Image = styled.img`  
   width: 100%;  
-  
+  max-height: 150px;
   @media(max-width:1100px){
     object-fit: cover;
-    max-height: 150px;
   } 
 `
 
